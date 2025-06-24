@@ -1,0 +1,197 @@
+
+    *
+{
+    margin:0px;
+    padding:0px;
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+ 
+
+}
+#brandname{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    
+}
+#newul
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    margin-right: 20px;
+   
+}
+#newul li{
+
+    list-style-type: none;
+    
+}
+#newul li a{
+
+    text-decoration: none;
+    color: black;
+
+}
+#newul li a:hover{
+
+   border-radius: 20px;
+   padding: 5px;
+   background-color:rgb(25, 25, 78); 
+   color: white;
+
+}
+/* hero section contents */
+
+#titles{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding :20px;
+    gap: 10px;
+}
+#titles h1
+{
+
+ font-size: 3.2rem;
+font-family:Arial, Helvetica, sans-serif;
+}
+#titles p
+{
+font-size: 0.9rem;
+font-family:Arial, Helvetica, sans-serif;
+}
+#titles button{
+    font-size: 0.7rem;
+    background-color: rgb(25, 25, 78);
+    border-radius: 5px;
+    color: white;
+    border: none;
+    padding:5px;
+    width: 80px;
+    height:25px
+}
+
+#hero-product img
+{
+    width: 250px;
+    height: 200px;
+    padding: 20px;
+}
+.hero-section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    background-color: rgb(244, 242, 242);
+  
+}
+
+/* about us section */
+.about-section
+{
+    display: flex;
+     justify-content: space-between;
+    margin-top: 40px;
+    background-color: rgb(244, 242, 242);
+}
+
+#about-img img
+{
+    width: 250px;
+    height: 200px;
+    padding: 20px;
+}
+#about-content{
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    font-family: Arial, Helvetica, sans-serif; 
+    
+}
+#about-content p{
+    font-size: 0.9rem;
+}
+/* service heading */
+.service-section{
+    background-color:  rgb(244, 242, 242);
+    margin-top: 40px;
+    padding: 40px;
+}
+#service{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:20px 0px;
+     font-family: Arial, Helvetica, sans-serif; 
+}
+#service-products{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  
+  
+}
+
+#im1{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    text-align: center;
+    width: 250px;
+    height: 150px;
+    gap: 10px;
+    padding :20px;
+}
+#im1 i{
+    color:rgb(43, 43, 154); 
+    font-size: 30px;
+}
+
+/* footer section */
+.footer-section{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgb(25,25,78);  
+    padding: 40px;
+    color: white;
+   
+}
+
+
+#footer3 ul li{
+list-style-type: none;
+padding: 5px;
+
+}
+#footer3 ul li a{
+ text-decoration: none;
+ color: white;
+
+}
+
+#footer3{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 250px;
+    height: 200px;
+
+}
+
